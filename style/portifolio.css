@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.973) 0%, rgba(10,10,10,0.9920343137254902) 67%, rgba(0,0,0,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    color: aliceblue;
+}
+
+/*Cabeçelho*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 40px;
+    padding: 45px;
+    border-bottom: 1px outset rgb(134, 132, 132) ;
+}
+/*Fim cabeçalho*/
+
+/*logo*/
+.logo_nome{
+    margin-left: 7%;
+    font-size: 1.3em;
+}
+/*fim logo*/
+
+/*menu*/
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;  
+}
+    ul li{
+        padding-left: 50px;
+    }
+    .li_last{
+        padding-right: 150px;
+    }
+
+    a.menu{
+    text-decoration: none;
+    color: white;
+}
+    a.menu:hover{
+        color:rgba(2, 100, 247, 0.616);
+        transition: 0.4s;
+    }
+/*fim menu*/
+
+
+/*containers*/
+main{
+    margin-top: 30px;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*fim containers*/
+
+/*Escritas*/
+h1{
+    font-size: 3em;
+    line-height: 90px;
+    text-shadow: 5px 5px 8px rgb(34, 34, 34);
+}
+
+.titulo-principal:after{
+    content: '_';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+   }
+   @keyframes pisca{
+       0%, 100%{
+           opacity: 1;
+       }
+       50%{
+           opacity: 0;
+       }
+   }
+
+p{
+    font-family: sans-serif;
+    font-size: 1.5em;
+
+    letter-spacing: 13px;
+}
+
+p#color_blue{
+    color: rgb(0, 68, 255);
+}
+/*Fim escritas*/
+
+/*Minha foto*/
+div.img_pessoal{
+
+}
+
+div.img_pessoal img{
+    height: 500px;
+    border-radius: 50%;  
+}
+/*fim minha foto*/
+
+/*div dos botoes*/
+.home_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+    margin-top: 36px;
+}
+
+a img.git{
+    height: 49px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid black;
+    border-radius: 23px;
+    box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616);
+}
+a img.git:hover{
+    box-shadow: -10px -13px 20px rgba(36, 88, 233, 0.616);
+}
+
+a img.link{
+    height: 49px;
+    background-color: rgb(0, 0, 0);
+    border: 7px solid black;
+    border-radius: 23px;
+    box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616);
+}
+a img.link:hover{
+    box-shadow: -10px -13px 20px rgba(36, 88, 233, 0.616);
+}
+
+input.home_buttons{
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    letter-spacing: 3px;
+    box-shadow: -8px -8px 15px rgba(0, 68, 255, 0.616);
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+input.home_buttons:hover{
+    padding: 13px;
+    transition: 0.2s;
+    box-shadow: -10px -13px 20px rgba(36, 88, 233, 0.616)
+}
+/*Fim div dos botoes*/
