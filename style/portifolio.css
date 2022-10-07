@@ -115,7 +115,7 @@ div.img_pessoal img{
 /*fim minha foto*/
 
 /*div dos botoes*/
-.home_buttons {
+div.home_buttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -154,7 +154,6 @@ input.home_buttons{
     letter-spacing: 3px;
     box-shadow: -8px -8px 15px rgba(0, 68, 255, 0.616);
     cursor: pointer;
-    margin-top: 0px;
 }
 
 input.home_buttons:hover{
