@@ -35,25 +35,25 @@ header{
 
 /*menu*/
 ul{
-    display: flex;
     text-decoration: none;
-    list-style: none;  
+    list-style: none;    
 }
     ul li{
-        padding-left: 50px;
-    }
-    .li_last{
-        padding-right: 150px;
-    }
-
+        display: inline-block;
+        margin: 15px;
+}
     a.menu{
-    text-decoration: none;
-    color: white;
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
 }
     a.menu:hover{
         color: rgb(0, 68, 255);
+        border: 1px solid rgba(96, 3, 218);
+        box-shadow: 0px 0px 5px rgba(96, 3, 218);
         transition: 0.4s;
-    }
+}
 /*fim menu*/
 
 
