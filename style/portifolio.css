@@ -51,7 +51,7 @@ ul{
     color: white;
 }
     a.menu:hover{
-        color:rgba(2, 100, 247, 0.616);
+        color: rgb(0, 68, 255);
         transition: 0.4s;
     }
 /*fim menu*/
@@ -100,6 +100,7 @@ p{
 
 p#color_blue{
     color: rgb(0, 68, 255);
+    text-shadow: 8px 8px 15px black;
 }
 /*Fim escritas*/
 
