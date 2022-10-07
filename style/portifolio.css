@@ -107,7 +107,7 @@ p#color_blue{
 /*Minha foto*/
 
 div.img_pessoal img{
-    height: 550px;
+    height: 70vh;
     border-radius: 30%;  
     box-shadow: -8px -8px 15px rgba(0, 68, 255, 0.616), 5px 5px 15px rgba(96, 3, 218);
 }
