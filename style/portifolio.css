@@ -128,10 +128,12 @@ a img.git{
     background-color: rgb(0, 0, 0);
     border: 3px solid black;
     border-radius: 23px;
-    box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616);
+    box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616), 8px 8px 15px black;
 }
 a img.git:hover{
     box-shadow: -10px -13px 20px rgba(36, 88, 233, 0.616);
+    padding: 1px;
+    transition: 0.2s;
 }
 
 a img.link{
@@ -139,10 +141,12 @@ a img.link{
     background-color: rgb(0, 0, 0);
     border: 7px solid black;
     border-radius: 23px;
-    box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616);
+    box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616), 8px 8px 15px black;
 }
 a img.link:hover{
     box-shadow: -10px -13px 20px rgba(36, 88, 233, 0.616);
+    padding: 1px;
+    transition: 0.2s;
 }
 
 input.home_buttons{
@@ -152,7 +156,7 @@ input.home_buttons{
     border-radius: 30px;
     width: 150px;
     letter-spacing: 3px;
-    box-shadow: -8px -8px 15px rgba(0, 68, 255, 0.616);
+    box-shadow: -8px -8px 15px rgba(0, 68, 255, 0.616), 8px 8px 15px black;
     cursor: pointer;
 }
 
