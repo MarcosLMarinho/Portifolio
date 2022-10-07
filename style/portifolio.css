@@ -4,11 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter' ,sans-serif;
 }
 
 body{
-    background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.973) 0%, rgba(10,10,10,0.9920343137254902) 70%, rgba(0,0,0,1) 100%);
+    background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.973) 0%, rgba(10,10,10,0.9920343137254902) 70%, rgba(0,0,0,1) 100%);
     width: 100vw;
     height: 100vh;
     color: aliceblue;
@@ -22,6 +22,7 @@ header{
     left: 0;   
     width: 100vw;
     padding: 20px 0px ;
+    background-color: black;
 }
 
 div.container_header{
@@ -64,18 +65,31 @@ div.menu    a.menu:hover{
 
 
 /*containers*/
-
+section.home, section.sobre{
+    padding: 6.5% 10%;
+    min-height: 35vh;
+    border-bottom: 2px outset rgb(134, 132, 132);
+    z-index: 0;
+    
+}
 section.home{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 6.5% 10%;
-
+    
 }
+section.sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    
+}
+
+
 /*fim containers*/
 
 /*Escritas*/
-h1{
+div.info_pessoal h1{
     font-size: 3em;
     line-height: 90px;
     text-shadow: 5px 5px 8px rgb(34, 34, 34);
@@ -151,5 +165,38 @@ a img.link:hover{
     padding: 1px;
     transition: 0.2s;
 }
-
 /*Fim div dos botoes*/
+
+div.img_sobre img{
+    height: 40vh;
+    width: 100%;
+    border-radius: 25%;
+    box-shadow: 0px 0px 20px rgba(36, 88, 233, 0.616);  
+}
+    div.img_sobre img:hover{
+        box-shadow: -8px -8px 15px  rgba(0, 68, 255, 0.616), 5px 5px 15px rgba(96, 3, 218);
+        padding: 3px;
+        transition: 0.5s;
+    }
+    
+div.sobre_txt{
+    width: 70%;
+    text-align: justify;
+    display: block;
+    color: rgb(170, 170, 170);
+
+}
+    div.sobre_txt h1{
+        margin-bottom: 40px;   
+        letter-spacing: 1px
+    }
+    div.sobre_txt h2{
+        margin-bottom: 20px;
+        font-weight: 200;
+        letter-spacing: 1px
+    }
+    div.sobre_txt p{
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        font-size: 1.1em       
+    }
