@@ -9,33 +9,58 @@
 </head>
 <body>
     <header>
-        <div class="logo_nome"><font color="#0044FF">{</font>dev-Marcos<font color="#0044FF">}</font></div>
-        <div class="menu">
-            <ul>
-                <a class="menu" href="#"><li>Inicio</li></a>
-                <a class="menu" href="#"><li>Sobre</li></a>
-                <a class="menu" href="#"><li>Projetos</li></a>
-                <a class="menu" href="#"><li class="li_last">Contato</li></a>
-            </ul>
+        <div class="container_header">   
+            <div class="logo_nome">
+                <font color="#0044FF">{</font>dev-Marcos<font color="#0044FF">}</font>
+            </div>
+            <div class="menu">
+                <ul>
+                    <a class="menu" href="#"><li>Inicio</li></a>
+                    <a class="menu" href="#"><li>Sobre</li></a>
+                    <a class="menu" href="#"><li>Projetos</li></a>
+                    <a class="menu" href="#"><li class="li_last">Contato</li></a>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
-        <section>
+        <section class="home">
+            <div class="home_buttons">                   
+                <a href="https://github.com/MarcosLMarinho" target="_blank">
+                        <img class="git" src="imagens/github.png" alt="giticon">
+                </a>
+                <a href="https://www.linkedin.com/in/marcos-marinho-00a921231/" target="_blank">
+                    <img class="link" src="imagens/linke.jpg" alt="linkeicon">
+                </a>
+            </div>
+            
             <div class="info_pessoal">
                 <p>Olá, eu sou</p>
                 <h1 class="titulo-principal">Marcos Marinho.</h1>
-                <p id="color_blue">desenvolverdor front-end</p>
-                <div class="home_buttons">
-                    <input class="home_buttons" type="button" value="Download CV">
-                    <a href="https://github.com/MarcosLMarinho" target="_blank"><img class="git" src="imagens/github.png" alt="giticon"></a>
-                    <a href="https://www.linkedin.com/in/marcos-marinho-00a921231/" target="_blank"><img class="link" src="imagens/linke.jpg" alt="linkeicon"></a>
-                </div>
+                <p id="color_blue">desenvolverdor front-end</p>    
             </div>
+            
+            
             <div class="img_pessoal">
                 <img src="imagens/download.png" alt="minha foto">
             </div>
         </section>
+        
+        <section class="sobre">
+            <div class="img_sobre">
+                <img src="imagens/11 - 3S Marcos 7-¦B.JPG" alt="minha foto">
+            </div>
+            <div class="sobre_txt"> 
+                <h1>SOBRE MIM</h1>
+                <h2>Rio de Janeiro, Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nostrum unde mollitia quod minus vitae cum autem facere doloremque officia reprehenderit praesentium at ipsum, doloribus explicabo blanditiis illo cupiditate molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni vero non delectus molestiae quis. Quod, magnam! Laudantium inventore necessitatibus repellat temporibus veniam eaque omnis ea excepturi cum eos. Doloribus.</p>
+            <p>Hoje ja entendo tecnologias como HTML, CSS e JavaScript</p>
+            </div>
+        </section>
+
+
     </main>
+
 
 <script src="js/portifolio.js"></script>
 </body>
