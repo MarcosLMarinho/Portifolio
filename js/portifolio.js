@@ -12,15 +12,17 @@ const titulo = document.querySelector('.titulo-principal');
 typeWrite(titulo);
 
 function mostrar(){
-    var mostrar = [document.getElementById('p4'), document.getElementById('p5'),document.getElementById('p6')]
- 
-    if (mostrar[0].style.display== "none" || mostrar[1].style.display == "none", mostrar[2].style.display == "none") {
-      mostrar[0].style.display == "block",
-      mostrar[1].style.display == "block",
-      mostrar[2].style.display == "block"
+    var mostrar = [document.querySelector('.caixa_projeto_escondido0'), document.querySelector('.caixa_projeto_escondido1'), document.querySelector('.caixa_projeto_escondido2')]
+   
+    if (mostrar[0].style.display== "none") {
+      mostrar[0].style.display = "block"
+    } if (mostrar[1].style.display== "none"){
+      mostrar[1].style.display = "block"
+    } if (mostrar[2].style.display== "none") {
+      mostrar[2].style.display = "block"
     } else {
-      mostrar[0].style.display == "none",
-      mostrar[1].style.display == "none",
-      mostrar[2].style.display == "none"
+      for (var i = 0 ; i<=2 ; i++){
+        mostrar[i].style.display = "none"
+      }
     }
 }
