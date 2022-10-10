@@ -1,3 +1,4 @@
+//Função meu nome
 function typeWrite(elemento){
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = ' ';
@@ -11,6 +12,7 @@ function typeWrite(elemento){
 const titulo = document.querySelector('.titulo-principal');
 typeWrite(titulo);
 
+//Função Projetos
 function mostrar(){
     var mostrar = [document.querySelector('.caixa_projeto_escondido0'), document.querySelector('.caixa_projeto_escondido1'), document.querySelector('.caixa_projeto_escondido2')]
    

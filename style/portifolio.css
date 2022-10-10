@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.973) 0%, rgba(10,10,10,0.9920343137254902) 70%, rgba(0,0,0,1) 100%);
+    background-color: black;
     width: 100%;
     height: 100vh;
     color: aliceblue;
@@ -89,10 +89,8 @@ section.sobre{
     display: flex;
     justify-content: space-around;
     align-items: top;
+    background-color: rgb(10, 10, 10);
     
-}
-section.projetos{
-
 }
 
 /*fim containers*/
@@ -135,7 +133,7 @@ div.img_pessoal img{
     height: 70vh;
     width: 100%;
     border-radius: 25%;  
-    box-shadow: -8px -8px 15px rgba(0, 68, 255, 0.616), 5px 5px 15px rgba(96, 3, 218);
+    box-shadow: -2px -2px 7px rgba(0, 68, 255, 0.616), 2px 2px 7px rgba(96, 3, 218);
 }
 /*fim minha foto*/
 
@@ -268,7 +266,7 @@ div.button_projetos {
 }
 
 div.button_projetos input{
-    background-color: black;
+    background-color: rgb(18, 18, 18);
     width: 250px;
     height: 40px;
     border-radius: 20px;
@@ -286,7 +284,7 @@ div.button_projetos input:hover{
 }
 
 div.button_projetos input:not(:hover){
-    background-color: black;
+    background-color: rgb(18, 18, 18);
     width: 250px;
     height: 40px;
     border-radius: 20px;
