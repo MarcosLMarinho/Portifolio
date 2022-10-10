@@ -42,8 +42,8 @@ div.menu{
     display: flex;
 }
 div.menu    ul{
-    text-decoration: none;
-    list-style: none;    
+        text-decoration: none;
+        list-style: none;    
 }
 div.menu    ul li{
         display: inline-block;
@@ -61,11 +61,18 @@ div.menu    a.menu:hover{
         box-shadow: 0px 0px 5px rgba(96, 3, 218);
         transition: 0.4s;
 }
+div.menu    a.menu:not(:hover){
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 0.4s;
+}
 /*fim menu*/
 
 
 /*containers*/
-section.home, section.sobre{
+section.home, section.sobre, section.projetos{
     padding: 6.5% 10%;
     min-height: 35vh;
     border-bottom: 2px outset rgb(134, 132, 132);
@@ -166,7 +173,7 @@ a img.link:hover{
     transition: 0.2s;
 }
 /*Fim div dos botoes*/
-
+/*Sobre mim*/
 div.img_sobre img{
     height: 40vh;
     width: 100%;
@@ -200,3 +207,64 @@ div.sobre_txt{
         letter-spacing: 1px;
         font-size: 1.1em       
     }
+/*fim sobre mim*/
+div.h1_projetos{
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: rgb(170, 170, 170);
+    margin-bottom: 40px;   
+    letter-spacing: 1px;
+    font-size: 1.6em;
+}
+
+div.container_projetos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+div.caixa_projeto{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(170, 170, 170);
+    margin: 15px;
+    border-radius: 15px;
+}
+
+div.button_projetos {
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+div.button_projetos input{
+    background-color: black;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+
+div.button_projetos input:hover{
+    border: 1px solid white;
+    letter-spacing: 2px;
+    background-color: rgb(53, 52, 52);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+div.button_projetos input:not(:hover){
+    background-color: black;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: aliceblue;
+    transition: 0.5s;
+}
