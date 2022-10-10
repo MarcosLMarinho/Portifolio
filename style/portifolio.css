@@ -233,6 +233,15 @@ div.caixa_projeto{
     border-radius: 15px;
 }
 
+div.caixa_projeto_escondido{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(170, 170, 170);
+    margin: 15px;
+    border-radius: 15px;
+    display: block;
+}
+
 div.button_projetos {
     display: block;
     display: flex;
