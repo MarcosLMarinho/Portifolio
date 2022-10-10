@@ -25,4 +25,9 @@ function mostrar(){
         mostrar[i].style.display = "none"
       }
     }
+    if (mostrar[0].style.display == 'block'){
+      document.querySelector('#ver').value = 'Ver menos'
+    } else {
+      document.querySelector('#ver').value = 'Ver mais'
+    }
 }
