@@ -31,6 +31,7 @@ div.container_header{
     align-items: center;
 }
 /*Fim cabeçalho*/
+
 /*logo*/
 .logo_nome{
     font-size: 1.3em;
@@ -69,7 +70,6 @@ div.menu    a.menu:not(:hover){
         transition: 0.4s;
 }
 /*fim menu*/
-
 
 /*containers*/
 section.home, section.sobre, section.projetos{
