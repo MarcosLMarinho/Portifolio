@@ -91,8 +91,7 @@
             <div class="h1_habilidades">
                 <h1>Habilidades</h1>
             </div>
-            
-            <div class="flex_habilidades">               
+                           
                 <div class="container_habilidades">
                     <div class="caixa_habilidades"></div>
                     <div class="caixa_habilidades"></div>
@@ -100,18 +99,24 @@
                     <div class="caixa_habilidades"></div>
                     <div class="caixa_habilidades"></div>
                     <div class="caixa_habilidades"></div>
-                    <div class="caixa_habilidades"></div>
-                    <div class="caixa_habilidades"></div>
-                </div>
-
-                <div class="descrição_habilidades">
-                    <h1>/*Passe o mouse para ver a descrição*/</h1>
-                </div>           
-            </div>
+                </div>         
         </section>
 
-        <section class="contato" id="contato">
-
+        <section class="contato" id="contato">      
+            <h1>Contato</h1>
+            <div>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label>Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                    <label>Mensagem</label>
+                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                    
+                    <input type="hidden" name="accessKey" value="9f69ffd5-ef77-4549-9d65-2a565e2e9364">
+                    <input type="hidden" name="redirectTo" value="https://marcoslmarinho.github.io/Portifolio/">
+                </form>
         </section>
     </main>
     <footer>
