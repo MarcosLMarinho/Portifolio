@@ -355,10 +355,23 @@ section.contato h1{
 
 }
 
+div.container_contato{
+    border-left: 6px solid blue;
+}
+div.container_contato:hover{
+    border-left: 6px solid rgba(96, 3, 218);
+    transition: all 1s;
+}
+div.container_contato:not(:hover){
+    border-left: 6px solid blue;
+    transition: all 1s;
+}
+
 div.container_contato form{
     display: flex;
     flex-direction: column;
     width: 750px;
+    margin-left: 3px;
 }
 
 form label{
