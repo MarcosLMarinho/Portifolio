@@ -360,11 +360,11 @@ div.container_contato{
 }
 div.container_contato:hover{
     border-left: 6px solid rgba(96, 3, 218);
-    transition: all 1s;
+    transition: all 0.6s;
 }
 div.container_contato:not(:hover){
     border-left: 6px solid blue;
-    transition: all 1s;
+    transition: all 0.6s;
 }
 
 div.container_contato form{
