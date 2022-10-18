@@ -97,6 +97,10 @@ section.sobre{
 section.habilidades{
     background-color: rgb(10, 10, 10);
     height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
 section.contato{
@@ -333,9 +337,8 @@ div.container_habilidades{
     grid-template-areas: 
     "div div div"
     "div div div";
-    margin: auto;
-    gap: 3rem;
-    width: 100%;
+    gap: 1rem;
+    width: 90%;
 }
 
 div.caixa_habilidades{
@@ -344,6 +347,7 @@ div.caixa_habilidades{
     background-color: gray;
     box-shadow: -1px -1px 1px rgba(0, 68, 255, 0.616), 1px 1px 1px rgba(96, 3, 218);
     border-radius: 10px;
+
     
 }
 
