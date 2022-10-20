@@ -103,6 +103,8 @@ section.habilidades{
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    visibility: visible;
+
 }
 
 section.contato{
