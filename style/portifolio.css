@@ -392,7 +392,7 @@ div.container_contato form{
 }
 
 form label{
-    color: #f5f5f5;
+    color: #ffffff;
     font-size: 1.2em;
     margin-bottom: 4px;
 }
@@ -404,6 +404,11 @@ form input{
     margin-bottom: 20px;
     font-size: 15px;
     transition: all 0.5s;
+    background-color: gray;
+}
+
+form input::placeholder, form textarea::placeholder{
+    color: #c0bfbf;
 }
 
 form input:focus{
@@ -417,6 +422,7 @@ form textarea{
     font-size: 15px;
     margin-bottom: 30px;
     transition: all 0.5s;
+    background-color: gray;
 }
 form textarea:focus{
     border-radius: 16px;
