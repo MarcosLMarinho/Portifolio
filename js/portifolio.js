@@ -41,18 +41,24 @@ window.sr = ScrollReveal({ reset:true});
 // Home
 
 
-sr.reveal('.home_buttons', {delay: 500, origin: 'left'})
-sr.reveal('.info_pessoal', {delay: 500, origin: 'top'})
-sr.reveal('.img_pessoal', {delay: 500, origin:'right'})
-sr.reveal('.home', {delay : 500,  origin: 'left'})
+sr.reveal('.home_buttons', {duration: 2000, origin: 'left'})
+sr.reveal('.info_pessoal', {duration: 2000, origin: 'top'})
+sr.reveal('.img_pessoal', {duration: 2000, origin:'right'})
+sr.reveal('.home', {duration: 1000,  origin: 'left'})
 
 
-sr.reveal('.img_sobre', {delay : 500,  origin: 'top'})
-sr.reveal('.sobre_txt', {delay : 500, origin:'bottom'})
-sr.reveal('.sobre', {delay : 500,  origin: 'left'})
+sr.reveal('.img_sobre', {duration: 2000,  origin: 'top'})
+sr.reveal('.sobre_txt', {duration: 2000, origin:'bottom'})
+sr.reveal('.sobre', {duration: 1000,  origin: 'left'})
 
-sr.reveal('.h1_projetos', {delay : 500,  origin: 'top'})
-sr.reveal('.container_projetos', {delay : 500, origin:'bottom'})
-sr.reveal('.projetos', {delay : 500,  origin: 'left'})
+sr.reveal('.h1_projetos', {duration: 2000,  origin: 'top'})
+sr.reveal('.container_projetos', {duration: 2000, origin:'bottom'})
+sr.reveal('.projetos', {duration: 1000,  origin: 'left'})
 
+sr.reveal('.h1_habilidades', {duration: 2000,  origin: 'top'})
+sr.reveal('.ajustador_habilidades', {duration: 2000, origin:'bottom'})
+sr.reveal('.habilidades', {duration: 1000,  origin: 'left'})
 
+sr.reveal('.h1_contato', {duration: 2000,  origin: 'top'})
+sr.reveal('.container_contato', {duration: 2000, origin:'bottom'})
+sr.reveal('.contato', {duration: 1000,  origin: 'left'})

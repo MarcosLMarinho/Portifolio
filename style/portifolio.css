@@ -24,7 +24,7 @@ header{
     width: 100%;
     padding: 20px 0px ;
     overflow: hidden; 
-    z-index: 10;
+    z-index: 1;
     background-color: black;
 }
 
@@ -538,7 +538,7 @@ form input::placeholder, form textarea::placeholder{
     color: #c0bfbf;
 }
 
-form input:focus{
+form input:hover{
     border-radius: 16px;
 }
 
@@ -577,7 +577,9 @@ form button:hover{
 
 footer{
     width: 100%;
+    font-weight: 600;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     line-height: 25px;
+    background-color: #0044ffba;
 }
