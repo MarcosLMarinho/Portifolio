@@ -33,3 +33,26 @@ function mostrar(){
       document.querySelector('#ver').value = 'Ver mais'
     }
 }
+
+// Função Reveal
+
+window.sr = ScrollReveal({ reset:true});
+
+// Home
+
+
+sr.reveal('.home_buttons', {delay: 500, origin: 'left'})
+sr.reveal('.info_pessoal', {delay: 500, origin: 'top'})
+sr.reveal('.img_pessoal', {delay: 500, origin:'right'})
+sr.reveal('.home', {delay : 500,  origin: 'left'})
+
+
+sr.reveal('.img_sobre', {delay : 500,  origin: 'top'})
+sr.reveal('.sobre_txt', {delay : 500, origin:'bottom'})
+sr.reveal('.sobre', {delay : 500,  origin: 'left'})
+
+sr.reveal('.h1_projetos', {delay : 500,  origin: 'top'})
+sr.reveal('.container_projetos', {delay : 500, origin:'bottom'})
+sr.reveal('.projetos', {delay : 500,  origin: 'left'})
+
+
