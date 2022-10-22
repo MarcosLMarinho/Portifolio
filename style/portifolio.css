@@ -501,7 +501,7 @@ div.container_contato{
     border-left: 6px solid blue;
 }
 div.container_contato:hover{
-    border-left: 6px solid rgba(96, 3, 218);
+    border-left: 6px solid rgb(168, 3, 218);
     transition: all 0.6s;
 }
 div.container_contato:not(:hover){
