@@ -23,6 +23,8 @@ header{
     backdrop-filter: blur(10px);  
     width: 100%;
     padding: 20px 0px ;
+    overflow: hidden; 
+    z-index: 10;
     background-color: black;
 }
 
@@ -330,6 +332,133 @@ div.button_projetos input:not(:hover){
 
 
 /*inicio habilidades*/
+div.ajustador_habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.container_habilidades1{
+    width: 350px;
+    height: 200px;
+}
+.flipper1{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s;
+    position: relative;
+    display: flex;
+
+}
+.container_habilidades1:hover .flipper1{
+    transform: rotateY(180deg);
+}
+
+.container_habilidades2{
+    width: 350px;
+    height: 200px;
+}
+.flipper2{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s;
+    position: relative;
+    display: flex;
+
+}
+.container_habilidades2:hover .flipper2{
+    transform: rotateY(180deg);
+}
+
+.container_habilidades3{
+    width: 350px;
+    height: 200px;
+}
+.flipper3{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s;
+    position: relative;
+    display: flex;
+
+}
+.container_habilidades3:hover .flipper3{
+    transform: rotateY(180deg);
+}
+
+.container_habilidades4{
+    width: 350px;
+    height: 200px;
+}
+.flipper4{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s;
+    position: relative;
+    display: flex;
+
+}
+.container_habilidades4:hover .flipper4{
+    transform: rotateY(180deg);
+}
+
+.container_habilidades5{
+    width: 350px;
+    height: 200px;
+}
+.flipper5{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s;
+    position: relative;
+    display: flex;
+
+}
+.container_habilidades5:hover .flipper5{
+    transform: rotateY(180deg);
+}
+
+.container_habilidades6{
+    width: 350px;
+    height: 200px;
+}
+.flipper6{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s;
+    position: relative;
+    display: flex;
+}
+.container_habilidades6:hover .flipper6{
+    transform: rotateY(180deg);
+}
+
+#front{
+    background-color: blue;
+    position: absolute;
+    backface-visibility: hidden;
+    width: 350px;
+    height: 200px;
+}
+#back{
+    background-color: red;
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    width: 350px;
+    height: 200px;
+}
+
+
+
+
 
 div.h1_habilidades{
     width: 100%;
@@ -341,6 +470,7 @@ div.h1_habilidades{
     margin-bottom: 72px;
 }
 
+/*
 div.container_habilidades{
     display: grid;
     grid-template-areas: 
@@ -356,10 +486,9 @@ div.caixa_habilidades{
     height: 200px;
     background-color: gray;
     box-shadow: -1px -1px 1px rgba(0, 68, 255, 0.616), 1px 1px 1px rgba(96, 3, 218);
-    border-radius: 5px;
-
-    
+    border-radius: 5px;  
 }
+*/
 
 /*fim habilidades*/
 
