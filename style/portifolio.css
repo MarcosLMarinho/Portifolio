@@ -224,18 +224,16 @@ div.sobre_txt{
 
 }
     div.sobre_txt h1{
-        margin-bottom: 40px;   
+        margin-bottom: 30px;   
         letter-spacing: 1px
     }
     div.sobre_txt h2{
         margin-bottom: 20px;
         font-weight: 200;
-        letter-spacing: 1px
     }
     div.sobre_txt p{
         margin-bottom: 10px;
         letter-spacing: 1px;
-        font-size: 1.1em       
     }
 /*fim sobre mim*/
 
@@ -347,6 +345,7 @@ div.ajustador_habilidades{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    height: 100vh;
 }
 .container_habilidades1{
     width: 350px;
