@@ -332,6 +332,17 @@ div.button_projetos input:not(:hover){
 
 
 /*inicio habilidades*/
+
+div.h1_habilidades{
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: white;   
+    letter-spacing: 2px;
+    font-size: 1.8em;
+    margin-bottom: 72px;
+}
+
 div.ajustador_habilidades{
     display: flex;
     flex-wrap: wrap;
@@ -456,19 +467,6 @@ div.ajustador_habilidades{
     height: 200px;
 }
 
-
-
-
-
-div.h1_habilidades{
-    width: 100%;
-    text-align: center;
-    display: block;
-    color: white;   
-    letter-spacing: 2px;
-    font-size: 1.8em;
-    margin-bottom: 72px;
-}
 
 /*
 div.container_habilidades{
