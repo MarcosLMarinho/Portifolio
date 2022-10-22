@@ -339,6 +339,7 @@ div.container_habilidades{
     "div div div";
     gap: 1rem;
     width: 100%;
+    margin-left: -50px;
 }
 
 div.caixa_habilidades{
