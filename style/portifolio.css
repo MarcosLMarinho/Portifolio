@@ -25,7 +25,7 @@ header{
     padding: 20px 0px ;
     overflow: hidden; 
     z-index: 1;
-    background-color: black;
+    background-color: rgba(16, 16, 16, 0.72);
 }
 
 div.container_header{
@@ -182,7 +182,7 @@ a img.git{
 a img.git:hover{
     box-shadow: -10px -13px 20px rgba(36, 88, 233, 0.616);
     padding: 1px;
-    transition: 0.2s;
+    transition: all 0.2s;
 }
 
 a img.link{
@@ -455,14 +455,14 @@ div.ajustador_habilidades{
 }
 
 #front{
-    background-color: blue;
+    background-color: rgb(203, 203, 203);
     position: absolute;
     backface-visibility: hidden;
     width: 350px;
     height: 200px;
 }
 #back{
-    background-color: red;
+    background-color: rgb(243, 243, 243);
     position: absolute;
     transform: rotateY(180deg);
     backface-visibility: hidden;
