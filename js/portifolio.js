@@ -37,7 +37,7 @@ function mostrar(){
 // Função Reveal
 
 window.sr = ScrollReveal({ reset:true});
-
+ScrollReveal({ distance: '15px' });
 // Home
 
 
