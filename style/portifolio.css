@@ -455,7 +455,7 @@ div.ajustador_habilidades{
 }
 
 #front{
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(255, 255, 255);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     color: black;
     position: absolute;
@@ -473,21 +473,19 @@ div.ajustador_habilidades{
 #front img{
     width: 100px;
     margin-right: 25px;
-    
 }
 #front p{
     border-left: 3px solid black;
     padding: 30px 0px 30px 25px ;
 }
 #back{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(214, 214, 214);
     position: absolute;
     transform: rotateY(180deg);
     backface-visibility: hidden;
     width: 350px;
     height: 200px;
     padding: 8px;
-    border: 1px solid black;
     color: black;
 }
 
@@ -555,14 +553,14 @@ form input{
     margin-bottom: 20px;
     font-size: 15px;
     transition: all 0.5s;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
 }
 
 form input::placeholder, form textarea::placeholder{
-    color: #c0bfbf;
+    color: #aaaaaa;
 }
 
-form input:hover{
+form input:hover, form input:focus{
     border-radius: 16px;
 }
 
@@ -573,9 +571,9 @@ form textarea{
     font-size: 15px;
     margin-bottom: 30px;
     transition: all 0.5s;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
 }
-form textarea:focus{
+form textarea:focus, form textarea:hover{
     border-radius: 16px;
 }
 
