@@ -460,6 +460,9 @@ div.ajustador_habilidades{
     backface-visibility: hidden;
     width: 350px;
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 #back{
     background-color: rgb(243, 243, 243);
@@ -468,6 +471,9 @@ div.ajustador_habilidades{
     backface-visibility: hidden;
     width: 350px;
     height: 200px;
+    padding: 8px;
+    border: 1px solid black;
+    color: black;
 }
 
 
