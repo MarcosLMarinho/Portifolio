@@ -176,7 +176,7 @@ a img.git{
     background-color: rgb(0, 0, 0);
     border: 3px solid black;
     border-radius: 23px;
-    box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616), 4px 4px 8px rgba(96, 3, 218);
+    box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616), 4px 4px 8px rgb(168, 3, 218);
     margin: 20px;
 }
 a img.git:hover{
@@ -190,7 +190,7 @@ a img.link{
     background-color: rgb(0, 0, 0);
     border: 7px solid black;
     border-radius: 23px;
-    box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616), 4px 4px 8px rgba(96, 3, 218);
+    box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616), 4px 4px 8px rgb(168, 3, 218);
     margin: 20px;
 }
 a img.link:hover{
