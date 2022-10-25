@@ -148,7 +148,7 @@ p#color_blue{
 /*Scroll*/
 div.scroll{
     position: absolute;
-    bottom: 30px;    
+    bottom: 30px;
 }
 div.scroll a{
     font-style: none;
