@@ -198,7 +198,7 @@ div.home_buttons {
     justify-content: center;
 }
 
-a img.git, a img.link{
+a img.git, a img.linkedin{
     height: 55px;
     background-color: rgb(0, 0, 0);
     border: 3px solid black;
@@ -207,7 +207,7 @@ a img.git, a img.link{
     margin: 20px;
     transition: all 0.2s;
 }
-a img.git:hover, a img.link:hover{
+a img.git:hover, a img.linkedin:hover{
     box-shadow: -10px -13px 20px rgba(36, 88, 233, 0.616);
     padding: 1px;
     transition: all 0.2s;
