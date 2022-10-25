@@ -60,6 +60,8 @@ div.menu    a.menu{
         color: white;
         padding: 5px;
         border-radius: 10px;
+        font-weight: 600;
+
 }
 div.menu    a.menu:hover{
         color: rgb(0, 68, 255);
