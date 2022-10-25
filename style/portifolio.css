@@ -277,20 +277,12 @@ div.container_projetos{
     max-height: 720px;
 }
 
-div.caixa_projeto{
+div.caixa_projeto, div.caixa_projeto_escondido0, div.caixa_projeto_escondido1, div.caixa_projeto_escondido2{
     width: 250px;
     height: 200px;
     background-color: rgb(170, 170, 170);
     margin: 15px;
     border-radius: 15px;
-}
-
-div.caixa_projeto_escondido0, div.caixa_projeto_escondido1, div.caixa_projeto_escondido2{
-    width: 250px;
-    height: 200px;
-    background-color: rgb(170, 170, 170);
-    margin: 15px;
-    border-radius: 15px; 
 }
 
 div.button_projetos {
