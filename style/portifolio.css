@@ -420,27 +420,6 @@ div.ajustador_habilidades{
     justify-content: center;
 }
 
-
-/*
-div.container_habilidades{
-    display: grid;
-    grid-template-areas: 
-    "div div div"
-    "div div div";
-    gap: 1rem;
-    width: 100%;
-    margin-left: -50px;
-}
-
-div.caixa_habilidades{
-    width: 390px;
-    height: 200px;
-    background-color: gray;
-    box-shadow: -1px -1px 1px rgba(0, 68, 255, 0.616), 1px 1px 1px rgba(96, 3, 218);
-    border-radius: 5px;  
-}
-*/
-
 /*fim habilidades*/
 
 /*inicio contato*/
