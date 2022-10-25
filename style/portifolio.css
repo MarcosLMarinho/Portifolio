@@ -60,17 +60,11 @@ div.menu    a.menu{
         color: white;
         padding: 5px;
         font-weight: 600;
-
+        transition: all 0.4s;
 }
 div.menu    a.menu:hover{
         color: rgb(0, 68, 255);
-        transition: 0.4s;
-}
-div.menu    a.menu:not(:hover){
-        text-decoration: none;
-        color: white;
-        padding: 5px;
-        transition: 0.4s;
+        transition: all 0.4s;
 }
 /*fim menu*/
 
@@ -211,6 +205,7 @@ a img.git, a img.link{
     border-radius: 23px;
     box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616), 4px 4px 8px rgb(168, 3, 218);
     margin: 20px;
+    transition: all 0.2s;
 }
 a img.git:hover, a img.link:hover{
     box-shadow: -10px -13px 20px rgba(36, 88, 233, 0.616);
@@ -230,12 +225,12 @@ div.img_sobre img{
     border-radius: 25%;
     box-shadow: 0px 0px 20px rgba(36, 88, 233, 0.616);  
     margin-top: 20px;
-
+    transition: all 0.5s;
 }
     div.img_sobre img:hover{
         box-shadow: -8px -8px 15px  rgba(0, 68, 255, 0.616), 5px 5px 15px rgba(96, 3, 218);
         padding: 3px;
-        transition: 0.5s;
+        transition: all 0.5s;
     }
     
 div.sobre_txt{
@@ -304,7 +299,7 @@ div.button_projetos {
     margin-top: 15px;
 }
 
-div.button_projetos input, div.button_projetos input:not(:hover){
+div.button_projetos input{
     background-color: rgb(18, 18, 18);
     width: 250px;
     height: 40px;
@@ -312,18 +307,15 @@ div.button_projetos input, div.button_projetos input:not(:hover){
     text-align: center;
     font-size: 1.2em;
     color: aliceblue;
+    transition: all 0.5s;
 }
 
 div.button_projetos input:hover{
     border: 1px solid white;
     letter-spacing: 2px;
     background-color: rgb(53, 52, 52);
-    transition: 0.5s;
+    transition: all 0.5s;
     cursor: pointer;
-}
-
-div.button_projetos input:not(:hover){
-    transition: 0.5s;
 }
 
 /*fim Projetos*/
@@ -433,16 +425,12 @@ section.contato h1{
 
 div.container_contato{
     border-left: 6px solid blue;
+    transition: all 0.6s;
 }
 div.container_contato:hover{
     border-left: 6px solid rgb(168, 3, 218);
     transition: all 0.6s;
 }
-div.container_contato:not(:hover){
-    border-left: 6px solid blue;
-    transition: all 0.6s;
-}
-
 div.container_contato form{
     display: flex;
     flex-direction: column;
