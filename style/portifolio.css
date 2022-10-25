@@ -59,7 +59,6 @@ div.menu    a.menu{
         text-decoration: none;
         color: white;
         padding: 5px;
-        border-radius: 10px;
         font-weight: 600;
 
 }
@@ -71,7 +70,6 @@ div.menu    a.menu:not(:hover){
         text-decoration: none;
         color: white;
         padding: 5px;
-        border-radius: 10px;
         transition: 0.4s;
 }
 /*fim menu*/
@@ -107,8 +105,6 @@ section.habilidades{
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    visibility: visible;
-
 }
 
 section.contato{
@@ -119,7 +115,6 @@ section.contato{
     margin: auto;
     width: 100%;
     height: 100vh;
-    visibility: visible;
 }
 
 /*fim containers*/
@@ -147,7 +142,6 @@ div.info_pessoal h1{
    }
 
 div.info_pessoal p{
-    font-family: sans-serif;
     font-size: 1.5em;
     letter-spacing: 10px;
 }
@@ -198,8 +192,7 @@ div.scroll img {
 
 /*Minha foto*/
 div.img_pessoal img{
-    width: 500px;
-    border-radius: 25%;  
+    width: 500px; 
 }
 /*fim minha foto*/
 
@@ -211,7 +204,7 @@ div.home_buttons {
     justify-content: center;
 }
 
-a img.git{
+a img.git, a img.link{
     height: 55px;
     background-color: rgb(0, 0, 0);
     border: 3px solid black;
@@ -219,25 +212,16 @@ a img.git{
     box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616), 4px 4px 8px rgb(168, 3, 218);
     margin: 20px;
 }
-a img.git:hover{
+a img.git:hover, a img.link:hover{
     box-shadow: -10px -13px 20px rgba(36, 88, 233, 0.616);
     padding: 1px;
     transition: all 0.2s;
 }
 
 a img.link{
-    height: 55px;
-    background-color: rgb(0, 0, 0);
     border: 7px solid black;
-    border-radius: 23px;
-    box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616), 4px 4px 8px rgb(168, 3, 218);
-    margin: 20px;
 }
-a img.link:hover{
-    box-shadow: -10px -13px 20px rgba(36, 88, 233, 0.616);
-    padding: 1px;
-    transition: 0.2s;
-}
+
 /*Fim div dos botoes*/
 /*Sobre mim*/
 div.img_sobre img{
@@ -306,36 +290,21 @@ div.caixa_projeto{
     border-radius: 15px;
 }
 
-div.caixa_projeto_escondido0{
+div.caixa_projeto_escondido0, div.caixa_projeto_escondido1, div.caixa_projeto_escondido2{
     width: 250px;
     height: 200px;
     background-color: rgb(170, 170, 170);
     margin: 15px;
     border-radius: 15px; 
 }
-div.caixa_projeto_escondido1{
-    width: 250px;
-    height: 200px;
-    background-color: rgb(170, 170, 170);
-    margin: 15px;
-    border-radius: 15px;
-}
-div.caixa_projeto_escondido2{
-    width: 250px;
-    height: 200px;
-    background-color: rgb(170, 170, 170);
-    margin: 15px;
-    border-radius: 15px;
-}
 
 div.button_projetos {
-    display: block;
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
 
-div.button_projetos input{
+div.button_projetos input, div.button_projetos input:not(:hover){
     background-color: rgb(18, 18, 18);
     width: 250px;
     height: 40px;
@@ -354,13 +323,6 @@ div.button_projetos input:hover{
 }
 
 div.button_projetos input:not(:hover){
-    background-color: rgb(18, 18, 18);
-    width: 250px;
-    height: 40px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 1.2em;
-    color: aliceblue;
     transition: 0.5s;
 }
 
@@ -389,110 +351,39 @@ div.ajustador_habilidades{
     align-items: center;
 
 }
-.container_habilidades1{
+.container_habilidades1, .container_habilidades2, .container_habilidades3, .container_habilidades4, .container_habilidades5, .container_habilidades6{
     width: 350px;
     height: 200px;
+}
+.container_habilidades1{
     grid-area: div1;
 }
-.flipper1{
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.8s;
-    position: relative;
-    display: flex;
-
-}
-.container_habilidades1:hover .flipper1{
-    transform: rotateY(180deg);
-}
-
 .container_habilidades2{
-    width: 350px;
-    height: 200px;
     grid-area: div2;
 }
-.flipper2{
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.8s;
-    position: relative;
-    display: flex;
-
-}
-.container_habilidades2:hover .flipper2{
-    transform: rotateY(180deg);
-}
-
 .container_habilidades3{
-    width: 350px;
-    height: 200px;
     grid-area: div3;
 }
-.flipper3{
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.8s;
-    position: relative;
-    display: flex;
-
-}
-.container_habilidades3:hover .flipper3{
-    transform: rotateY(180deg);
-}
-
 .container_habilidades4{
-    width: 350px;
-    height: 200px;
     grid-area: div4;
 }
-.flipper4{
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.8s;
-    position: relative;
-    display: flex;
-
-}
-.container_habilidades4:hover .flipper4{
-    transform: rotateY(180deg);
-}
-
 .container_habilidades5{
-    width: 350px;
-    height: 200px;
     grid-area: div5;
 }
-.flipper5{
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.8s;
-    position: relative;
-    display: flex;
-
-}
-.container_habilidades5:hover .flipper5{
-    transform: rotateY(180deg);
-}
-
 .container_habilidades6{
-    width: 350px;
-    height: 200px;
     grid-area: div6;
 }
-.flipper6{
+
+.flipper1, .flipper2, .flipper3, .flipper4, .flipper5, .flipper6{
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
     transition: all 0.8s;
     position: relative;
     display: flex;
+
 }
-.container_habilidades6:hover .flipper6{
+.container_habilidades1:hover .flipper1, .container_habilidades2:hover .flipper2, .container_habilidades3:hover .flipper3, .container_habilidades4:hover .flipper4, .container_habilidades5:hover .flipper5, .container_habilidades6:hover .flipper6{
     transform: rotateY(180deg);
 }
 
@@ -502,34 +393,30 @@ div.ajustador_habilidades{
     color: black;
     position: absolute;
     backface-visibility: hidden;
-    width: 180px;
-    height: 180px;
+    width: 175px;
+    height: 175px;
     border-radius: 10%;
     display: flex;
     align-items: center;
     justify-content: center;  
 }
 #front img{
-    width: 100px;
+    width: 120px;
 }
-#front p{
-    border-left: 3px solid black;
-    padding: 30px 0px 30px 25px ;
-}
+
 #back{
     background-color: rgb(226, 223, 223);
-    position: absolute;
     transform: rotateY(180deg);
     backface-visibility: hidden;
-    width: 180px;
-    height: 180px;
-    padding: 8px;
+    width: 175px;
+    height: 175px;
+    padding: 5px;
     border-radius: 10%;
     color: black;
     text-align: justify;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
