@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*rgba(10, 10, 10, 0.973) cor preta*/
+
 *{
     margin: 0;
     padding: 0;
@@ -47,25 +47,25 @@ div.container_header{
 div.menu{
     display: flex;
 }
-div.menu    ul{
+    div.menu    ul{
         text-decoration: none;
         list-style: none;    
-}
-div.menu    ul li{
+    }
+    div.menu    ul li{
         display: inline-block;
         margin: 0px 15px;
-}
-div.menu    a.menu{
+    }
+    div.menu    a.menu{
         text-decoration: none;
         color: white;
         padding: 5px;
         font-weight: 600;
         transition: all 0.4s;
-}
-div.menu    a.menu:hover{
+    }
+    div.menu    a.menu:hover{
         color: rgb(0, 68, 255);
         transition: all 0.4s;
-}
+    }
 /*fim menu*/
 
 /*containers*/
@@ -145,7 +145,7 @@ p#color_blue{
     text-shadow: 8px 8px 15px black;
     letter-spacing: 8px;
 }
-
+/*Scroll*/
 div.scroll{
     position: absolute;
     bottom: 30px;    
@@ -200,7 +200,7 @@ div.home_buttons {
 
 a img.git, a img.linkedin{
     height: 55px;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     border: 3px solid black;
     border-radius: 23px;
     box-shadow: -10px -13px 20px rgba(0, 68, 255, 0.616), 4px 4px 8px rgb(168, 3, 218);
