@@ -1,4 +1,4 @@
-import typeWrite from './modules/typewrite.js'
+import './modules/typewrite.js'
 import ScrollSuave from './modules/scroll-suave.js';
 import SlideNav from './modules/slidenav.js';
 import MenuMobile from './modules/menu-mobile.js';
