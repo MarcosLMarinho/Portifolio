@@ -1,0 +1,104 @@
+.projects{
+  padding-top: 6rem;
+}
+
+.slide-wrapper {
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+}
+
+.slide:hover {
+  will-change: transform;
+}
+
+.slide li {
+  flex-shrink: 0;
+  width: 400px;
+  height: 300px;
+  background-color: black;
+  max-width: 800px;
+  margin: 0 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,.4);
+  opacity: .8;
+  transform: scale(.8);
+  transition: .4s;
+}
+
+.slide img {
+  display: block;
+  max-width: 100%;
+}
+
+.slide li.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.custom-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.custom-controls li {
+  opacity: .8;
+  transform: scale(.8);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 2px;
+  box-shadow: 0 2px 2px rgba(0,0,0,.5);
+  transition: .3s;
+  cursor: pointer;
+  background-color: var(--title-color);
+
+}
+
+.custom-controls li.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.arrow-nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -42px;
+}
+
+.arrow-nav button {
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  width: 30px;
+  height: 30px;
+  background: var(--first-color-alt) url('/img/arrow.svg') center center no-repeat;
+}
+.arrow-nav button:hover {
+  background: var(--first-color) url('/img/arrow.svg') center center no-repeat;
+}
+
+.arrow-nav button.prev {
+  transform: rotate(-180deg);
+}
+
+@media (max-width:700px) {
+  .projects{
+    padding-top: 4rem;
+  }
+  .slide li {
+    max-width: 200px;
+  }
+  .arrow-nav {
+    justify-content: space-between;
+    margin: -42px 15px 0px 15px;
+  }
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  <link rel="stylesheet" href="style.css">
+  <title>Portifólio</title>
+</head>
+<body>
+  
+  <header class="header container" id="header">
+    <nav>
+      <a href="./index.html" class="logo">
+        marcos<span>.dev</span>
+      </a>
+      <button data-menu="button" aria-expanded="false" aria-controls="menu"></button>
+      <div class="menu">
+        <ul class="menu_list" data-menu="list">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="home container">
+      <div class="home_names">
+        <h2>Olá, eu sou</h2>
+        <h1 class="titulo-principal">Marcos Marinho</h1>
+        <span>Desenvolvedor Front-End</span>
+        <p>Focado na criação de interfaces e aplicações web. Atualmente aprimorando meus conhecimentos em JavaScript, React e SASS.</p>
+        <div class="home_links">
+          <a href="https://www.linkedin.com/in/marcos-marinho-00a921231/" target="_blank" class="button">
+            <i class='bx bxl-linkedin-square'></i>
+            Linkedin
+          </a>
+          <a href="https://github.com/MarcosLMarinho" target="_blank" class="button alt">
+            <i class='bx bxl-github'></i>
+            Github
+          </a>
+        </div>
+      </div>
+      <div>
+        <img src="img/about-image.svg" alt="Foto">
+      </div>
+    </section>
+    <section class="about container" id="about">
+      <div>
+        <img src="/img/download.png" alt="Minha Foto">
+      </div>
+      <div class="me">
+        <h1>Sobre mim</h1>
+        <h2>Rio de Janeiro, Brasil</h2>
+        <p>
+          Graduando em Sistemas de Informação na faculdade Estácio de Sá do Rio de Janeiro. Trabalho de freelancer como front-end developer, desenvolvendo aplicações web.
+        </p>
+        <a href="./pdf/curriculo.pdf" target="_blank" class="about_button button">
+          <i class='bx bx-cloud-download'></i>
+          Currículo
+        </a>
+      </div>
+    </section>
+    
+    <section id="skills">
+      <div class="skills__data container">
+        <h2 class="subtitle">Habilidades</h2>
+        <div class="skills__container">
+          <div class="skill">
+            <i class='bx bxl-react react-icon'></i>
+            <span class="react-span">React</span>
+          </div>
+          <div class="skill">
+            <i class='bx bxl-javascript javascript-icon'></i>
+            <span class="javascript-span">JavaScript</span>
+          </div>
+          <div class="skill">
+            <i class='bx bxl-html5 html-icon'></i>
+            <span class="html-span">HTML5</span>
+          </div>
+          <div class="skill">
+            <i class='bx bxl-css3 css-icon'></i>
+            <span class="css-span">CSS3</span>
+          </div>
+          <div class="skill">
+            <i class='bx bxl-git git-icon'></i>
+            <span class="git-span">Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="projects" id="projects">
+      <h2 class="subtitle container">Projetos</h2>
+      <div class="slide-wrapper">
+        <ul class="slide">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <ul class="custom-controls">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="arrow-nav">
+        <button class="prev"></button>
+        <button class="next"></button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__info">
+          <a href="./index.html" class="logo">
+            marcos<span>.dev<span>
+          </a>
+          <p class="footer__info--description">Se deseja conversar, por favor não hesite e me envie uma mensagem nas redes sociais.</p>
+        </div>
+
+        <div class="footer__links">
+          <ul class="footer__menu">
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="./#about">Sobre mim</a>
+            </li>
+            <li>
+              <a href="./#skills">Habilidades</a>
+            </li>
+            <li>
+              <a href="./#projects">Projetos</a>
+            </li>
+          </ul>
+
+          <div class="footer__social">
+            <a href="https://www.linkedin.com/in/marcos-marinho-00a921231/" aria-label="Linkedin" target="_blank">
+              <i class='bx bxl-linkedin-square'></i>
+            </a>
+            <a href="https://github.com/MarcosLMarinho" aria-label="Github" target="_blank">
+              <i class='bx bxl-github'></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="arrow_home">
+        <a href="#header" data-menu="suave"><i class='bx bxs-up-arrow-circle'></i></a>
+      </div>
+    </footer>
+  </main>
+  <script src="utput/main.js"></script>
+</body>
+</html>

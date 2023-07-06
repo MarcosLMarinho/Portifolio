@@ -1,0 +1,59 @@
+.skills__container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+.skill {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 11rem;
+  background-color: var(--skills-bg-color);
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+  transition: .3s;
+}
+.skill i {
+  position: relative;
+  bottom: 0rem;
+  font-size: 6.5rem;
+  color: var(--title-color);
+  transition: .4s ease;
+}
+.skill span {
+  position: absolute;
+  left: 50%;
+  bottom: 0rem;
+  transform: translateX(-50%);
+  transition: .4s ease;
+  opacity: 0;
+}
+
+.skill:hover i {
+  background-color: var(--skills-hover-color);
+  bottom: 1.2rem;
+}
+.skill:hover span {
+  bottom: 1.2rem;
+  font-weight: var(--font-medium);
+  opacity: 1;
+}
+    
+.skill:hover .html-icon, .skill:hover .html-span {color: var(--html-icon-color)}
+.skill:hover .css-icon, .skill:hover .css-span {color: var(--css-icon-color)}
+.skill:hover .javascript-icon, .skill:hover .javascript-span {color: var(--javascript-icon-color)}
+.skill:hover .git-icon, .skill:hover .git-span {color: var(--git-icon-color)}
+.skill:hover .react-icon, .skill:hover .react-span {color: var(--react-icon-color)}
+
+@media (max-width:700px){
+  .skills__container {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 300px;
+    gap: 1rem;
+  }
+  .skill {
+    max-width: 150px;
+  }
+}
+  

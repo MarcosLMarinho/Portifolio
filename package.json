@@ -1,0 +1,28 @@
+{
+  "name": "portifolio_novo",
+  "version": "1.0.0",
+  "description": "Meu portifolio",
+  "main": "script.js",
+  "scripts": {
+    "build": "webpack --mode production ./script.js -output ./main.js",
+    "dev": "webpack --mode development --watch ./script.js -output ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosLMarinho/Portifolio.git"
+  },
+  "author": "Marcos Marinho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcosLMarinho/Portifolio/issues"
+  },
+  "homepage": "https://github.com/MarcosLMarinho/Portifolio#readme",
+  "dependencies": {
+    "loadsh": "^0.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
