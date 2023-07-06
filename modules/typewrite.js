@@ -9,8 +9,4 @@ export default function typeWrite(elemento){
 });
 }
 const titulo = document.querySelector('.titulo-principal');
-<<<<<<< HEAD
 typeWrite(titulo);
-=======
-typeWrite(titulo);
->>>>>>> 5b3b4cdb26419e4fd2a12691d5550bb42eeda743
