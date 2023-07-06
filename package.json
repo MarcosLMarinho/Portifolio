@@ -4,12 +4,8 @@
   "description": "Meu portifolio",
   "main": "script.js",
   "scripts": {
-<<<<<<< HEAD
     "build": "webpack --mode production ./script.js -output ./main.js",
     "dev": "webpack --mode development --watch ./script.js -output ./main.js"
-=======
-    "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> 5b3b4cdb26419e4fd2a12691d5550bb42eeda743
   },
   "repository": {
     "type": "git",
@@ -25,12 +21,8 @@
     "loadsh": "^0.0.4"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "eslint": "^8.44.0",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4"
-=======
-    "eslint": "^8.44.0"
->>>>>>> 5b3b4cdb26419e4fd2a12691d5550bb42eeda743
   }
 }

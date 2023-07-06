@@ -1,12 +1,9 @@
 .home {
   padding: 6rem 0;
-<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 2rem;
-=======
->>>>>>> 5b3b4cdb26419e4fd2a12691d5550bb42eeda743
 }
 
 .home h2{
